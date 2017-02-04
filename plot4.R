@@ -1,10 +1,10 @@
 library(datasets)
 source("load_zip_to_df.R")
 png(file="./plot4.png",
-    width     = 800,
-    height    = 800,
+    width     = 480,
+    height    = 480,
     units     = "px",
-    pointsize = 15)
+    pointsize = 12)
 par(mfrow=c(2,2))
 plot(power_cons$Date_Time,
      power_cons$Global_active_power,
