@@ -1,4 +1,5 @@
 library(datasets)
+source("load_zip_to_df.R")
 png(file="./plot3.png")
 plot(power_cons$Date_Time,
      power_cons$Sub_metering_1,

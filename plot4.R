@@ -1,4 +1,5 @@
 library(datasets)
+source("load_zip_to_df.R")
 png(file="./plot4.png",
     width     = 800,
     height    = 800,
